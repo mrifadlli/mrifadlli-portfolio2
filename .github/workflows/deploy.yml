@@ -49,3 +49,10 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
+
+# Mengatur izin untuk file font pada GitHub Pages
+http_headers:
+  "/*":
+    - "Access-Control-Allow-Origin: *"
+  "/font/*":
+    - "Access-Control-Allow-Origin: *"
