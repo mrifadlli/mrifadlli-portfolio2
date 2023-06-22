@@ -17,7 +17,7 @@ const Home = () => {
             <span className="bg-yellow-400 rounded-full w-4 h-4 "></span>
             <span className="bg-green-600 rounded-full w-4 h-4 "></span>
           </div>
-          <div className="pt-10 md:pt-20 w-full">
+          <div className="pt-10 md:pt-20">
             <h1 className="font-primary text-5xl md:text-8xl text-center text-[#ECF8F9]">
               Hello. I&rsquo;m Rico.
             </h1>
