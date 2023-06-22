@@ -11,7 +11,7 @@ const Home = () => {
       className="bg-gradient-to-b from-[#002B5B] to-[#0E5E6F] h-fit flex"
     >
       <div className="flex mt-28 md:mt-36 mx-7 md:mx-24 w-full h-fit bg-black/20 rounded-xl">
-        <div className="pb-10 pt-2 w-full">
+        <div className="pb-10 pt-2 md:w-full w-fit">
           <div className="border-b-2 border-[#ECF8F9] flex justify-end mx-3 md:mx-5 py-2 gap-1">
             <span className="bg-red-600 rounded-full w-4 h-4 "></span>
             <span className="bg-yellow-400 rounded-full w-4 h-4 "></span>
@@ -27,8 +27,8 @@ const Home = () => {
           </div>
           <div className="md:mx-36 mx-5 text-center">
             <p className="text-center text-[#ECF8F9] text-sm font-light md:text-base normal-case">
-              Designing the web with creativity. I&lsquo;m passionate
-              about creating interfaces that are fun, useful and user sentric.
+              Designing the web with creativity. I&lsquo;m passionate about
+              creating interfaces that are fun, useful and user sentric.
             </p>
             <div className="flex justify-center items-center mt-7">
               <Link

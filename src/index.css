@@ -3,16 +3,6 @@
 @tailwind utilities;
 
 
-@font-face {
-  font-family: 'Acorn';
-  src:
-    url('font/Acorn-Regular.woff2') format('woff2'),
-    url('font/Acorn-Regular.woff') format('woff'),
-    url('font/Acorn-Regular.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -31,7 +21,6 @@
 .navNoBG {
   background-color: transparent;
 }
-
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

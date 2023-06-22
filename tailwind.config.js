@@ -3,7 +3,7 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     fontFamily: {
-      primary: "acorn",
+      primary: ["Urbanist", "sans-serif"],
     },
     extend: {
       backgroundImage: {

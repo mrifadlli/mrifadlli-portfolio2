@@ -23,13 +23,13 @@ const Portfolio = () => {
           <h1 className="font-primary text-primary text-xl md:text-3xl uppercase border-b-2">
             p o r t f o l i o
           </h1>
-          <p className="text-primary text-sm font-thin">
+          <p className="text-primary text-sm font-thin pt-0.5">
             Check out some of my work right here
           </p>
         </div>
         <Splide
           options={{
-            arrows: true,
+            arrows: false,
             pagination: false,
             type: "loop",
             autoplay: true,
