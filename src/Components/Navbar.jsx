@@ -34,9 +34,7 @@ const Navbar = () => {
     },
   ];
   return (
-    <header
-      className={`flex justify-center fixed items-center z-10 mt-4 w-full`}
-    >
+    <header className={`flex justify-center fixed items-center z-10 mt-4 w-full mx-auto`}>
       <ul
         className={`${nav} flex justify-between transition ease-out duration-500 rounded-full py-2 px-3 md:py-3 md:px-5`}
       >
