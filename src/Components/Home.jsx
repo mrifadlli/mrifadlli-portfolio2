@@ -18,10 +18,10 @@ const Home = () => {
             <span className="bg-green-600 rounded-full w-4 h-4 "></span>
           </div>
           <div className="pt-10 md:pt-20">
-            <h1 className="font-primary text-5xl md:text-8xl text-center text-[#ECF8F9]">
+            <h1 className="font-primary text-4xl md:text-8xl text-center text-[#ECF8F9]">
               Hello. I&rsquo;m Rico.
             </h1>
-            <h1 className="font-primary text-4xl md:text-7xl text-center text-[#ECF8F9] pb-4">
+            <h1 className="font-primary text-3xl md:text-7xl text-center text-[#ECF8F9] pb-4">
               Frontend Developer.
             </h1>
           </div>
