@@ -6,8 +6,6 @@ on:
       - main
 
 http_headers:
-  "/*":
-    - "Access-Control-Allow-Origin: *"
   "/font/*":
     - "Access-Control-Allow-Origin: *"
 
